@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/spec/phase0"
-	"github.com/flashbots/go-boost-utils/bls"
-	"github.com/flashbots/go-boost-utils/fuzzing"
+	"github.com/MEV-HEPU/go-boost-utils/bls"
+	"github.com/MEV-HEPU/go-boost-utils/fuzzing"
+	"github.com/MEV-HEPU/go-eth2-client/spec/phase0"
 )
 
 func FuzzRoundTripSigningData(f *testing.F) {

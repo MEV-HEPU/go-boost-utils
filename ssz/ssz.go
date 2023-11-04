@@ -3,8 +3,8 @@ package ssz
 import (
 	"errors"
 
-	"github.com/attestantio/go-eth2-client/spec/phase0"
-	"github.com/flashbots/go-boost-utils/bls"
+	"github.com/MEV-HEPU/go-boost-utils/bls"
+	"github.com/MEV-HEPU/go-eth2-client/spec/phase0"
 )
 
 var (
