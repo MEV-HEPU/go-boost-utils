@@ -1,10 +1,10 @@
-module github.com/flashbots/go-boost-utils
+module github.com/MEV-HEPU/go-boost-utils
 
 go 1.20
 
 require (
 	github.com/attestantio/go-builder-client v0.3.0
-	github.com/attestantio/go-eth2-client v0.16.3
+	github.com/MEV-HEPU/go-eth2-client v0.16.3-pacth
 	github.com/consensys/gnark-crypto v0.11.0
 	github.com/ethereum/go-ethereum v1.11.6
 	github.com/stretchr/testify v1.8.2
