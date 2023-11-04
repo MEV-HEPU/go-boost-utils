@@ -3,8 +3,8 @@ module github.com/MEV-HEPU/go-boost-utils
 go 1.20
 
 require (
-	github.com/MEV-HEPU/go-builder-client v0.3.0-fix
-	github.com/MEV-HEPU/go-eth2-client v0.16.3-fix
+	github.com/MEV-HEPU/go-builder-client v0.3.0-hepu
+	github.com/MEV-HEPU/go-eth2-client v0.16.3-hepu
 	github.com/consensys/gnark-crypto v0.11.0
 	github.com/ethereum/go-ethereum v1.11.6
 	github.com/stretchr/testify v1.8.4
@@ -12,11 +12,11 @@ require (
 )
 
 require (
+	github.com/MEV-HEPU/fastssz v0.1.3-fix // indirect
 	github.com/bits-and-blooms/bitset v1.5.0 // indirect
 	github.com/consensys/bavard v0.1.13 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
-	github.com/ferranbt/fastssz v0.1.3 // indirect
 	github.com/go-playground/validator/v10 v10.11.1 // indirect
 	github.com/goccy/go-yaml v1.11.2 // indirect
 	github.com/holiman/uint256 v1.2.3 // indirect
